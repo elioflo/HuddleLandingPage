@@ -5,11 +5,18 @@
     --primary-magenta: hsl(300, 69%, 71%);
 }
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
 body {
-    min-height: 100vh;
+    width: 1440px;
+    height: 750px;
 
     font-family: 'Open Sans', sans-serif;
     color: white;
@@ -20,9 +27,61 @@ body {
 
 main {
     display: flex;
+    margin-top: 81px;
+    margin-left: 73px;
 }
 
 .heading {
     font-family: 'Poppins', sans-serif;
 }
 
+.logo img {
+    width: 216px;
+}
+
+header {
+    margin-top: 54px;
+    margin-left: 69px;
+}
+
+.title {
+    width: 450px;
+    margin-left: 53px;
+    margin-top: 43.3px;
+    letter-spacing: 0.3px;
+    font-size: 39px;
+}
+
+.paragraph{
+    margin-left: 52.5px;
+    margin-top: 21px;
+    margin-bottom: 40px;
+    width: 520px;
+    line-height: 27px;
+    letter-spacing: 1px;
+}
+
+.button {
+    text-decoration: none;
+    color: var(--primary-violet);
+    background-color: white;
+    border-radius: 30px;
+    padding: 16px 62px;
+    margin-left: 53px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+footer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.rrss {
+    width: 168px;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin-right: 72px;
+}
